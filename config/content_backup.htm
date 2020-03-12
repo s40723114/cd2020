@@ -13,4 +13,22 @@
 <p><a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> 的開發, 可以在一個目錄中放入 cmsimde, 然後將 up_dir 中的內容放到與 cmsimde 目錄同位階的地方, 使用 command 進入 cmsimde 目錄, 執行 python wsgi.py, 就可以啟動, 以瀏覽器 https://localhost:9443 就可以連接, 以 admin 作為管理者密碼, 就可以登入維護內容.</p>
 <p>cmsimde 的開發採用 Leo Editor, 開啟 cmsimde 目錄中的 cmsimde.leo 就可以進行程式修改, 結束後, 若要保留網際內容, 只要將 cmsimde 外部的內容倒回 up_dir 目錄中即可後續對 cmsimde 遠端倉儲進行改版.</p>
 <p>init.py 位於  up_dir 目錄, 可以設定 site_title 與 uwsgi 等變數.</p>
-<h1>Python 3.8.2</h1>
+<h1>更新Python 3.8.2</h1>
+<p>1.進入 <a href="https://www.python.org/downloads/release/python-382/">https://www.python.org/downloads/release/python-382/</a></p>
+<p>2.下載<a href="https://s40723114.github.io/get_page/python%20%E6%9B%B4%E6%96%B0%E8%87%B33.8.2/Windows%20x86-64%20executable%20installer">Windows x86-64 executable installer</a></p>
+<p>3.下載完成後開啟，選擇Customize installation選項</p>
+<p><img alt="" height="251" src="https://s40723114.github.io/cd2020-ag1/images/1.PNG" width="401"/></p>
+<p>4.不要勾選pip選項，接著按下next</p>
+<p><img alt="" height="291" src="https://s40723114.github.io/cd2020-ag1/images/3.PNG" width="470"/></p>
+<p>5.選擇路徑將python安裝至可攜式系統中的Y槽下</p>
+<p>6.接著開啟start_mdecourse.bat批次檔</p>
+<p>7.將<span>start_mdecourse.bat批次檔中的py373改為安裝python 3.8.2版本的資料夾</span></p>
+<p><span>8.將安裝的版本資料夾取名為py382</span></p>
+<p><img alt="" height="490" src="https://s40723114.github.io/cd2020-ag1/images/2.PNG" width="800"/></p>
+<p>8.執行stop.bat批次檔後重新啟動start_mdecourse(為了讓檔案重新讀取)<br/><br/></p>
+<p>9.輸入get-pip.py，開始安裝pip工具</p>
+<p>10.安裝cmsimde所需模組</p>
+<p><img alt="" height="20" src="https://s40723114.github.io/cd2020-ag1/images/4.PNG" width="536"/></p>
+<p>11.版本已更新至 <span style="background-color: #ffffff; color: #ff0000;">python 3.8.2</span></p>
+<p><span style="background-color: #ffffff; color: #ff0000;"><img alt="" height="59" src="/images/6.PNG" width="645"/></span></p>
+<p><span style="background-color: #ffffff; color: #ff0000;"></span></p>
