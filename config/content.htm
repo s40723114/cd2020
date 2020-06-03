@@ -290,9 +290,36 @@
 <p><a href="https://127.0.0.1:18443">https://127.0.0.1:18443</a></p>
 <p><img alt="" height="349" src="/images/由windows系統下成功啟動近端.JPG" width="934"/></p>
 <p></p>
-<p>7.即可成L功登入</p>
-<p><br/><img alt="" height="635" src="/images/成功進來.JPG" width="1034"/></p>
-<h1>直播每週影片與進度</h1>
+<p>7.即可成功登入</p>
+<p><br/><img alt="" height="635" src="/images/成功進來.JPG" width="1034"/></p><h2>IPV6環境下,啟動自己對應的Host IP</h2>
+<p>1.先去網路介面卡設定自己對應的IP</p>
+<p><img alt="" height="508" src="/images/設定個人網址.PNG" width="627"/></p>
+<p>2.在自己的Net裡面設定IPV6所對應的IP<img caption="false" height="472" src="/images/101403646_2995875747200822_3586122921350791168_n.jpg" width="1000"/></p>
+<p>3.進去cd /etc/apt/apt.conf.d,設定Proxy</p>
+<p>輸入sudo vi Proxy.conf</p>
+<p>點選i,進行編輯設定</p>
+<p><img alt="" height="127" src="/images/Setting proxy.PNG" width="654"/></p>
+<p>輸入Acquire::http::Proxy "http://[2001:288:6004:17::69]:3128";</p>
+<p>按Esc,再輸入<span style="color: #ff0000;">:wq</span>儲存退出</p>
+<p>4.再來去cd /etc/netplan,設定DNS的addresses</p>
+<p>輸入sudo vi 00-installer-config.yaml,進行設定</p>
+<p><img alt="" height="231" src="/images/addresses設定.JPG" width="805"/></p>
+<p>5.接下來去cd tmp/cd2020pj1/cd docs/cd cmsimde,更改wsgi.py的Host IP</p>
+<p>輸入sudo vi wsgi.py進行設定</p>
+<p>設定IPV6下所對應的Host IP</p>
+<p><img alt="" height="412" src="/images/設定WSGI為9443.PNG" width="656"/></p>
+<p>6.設定完再來利用Python3 wsgi.py,啟動近端,檢查是否正常</p>
+<p><img alt="" height="220" src="/images/PYTHON3 WSGI.PY.PNG" width="634"/></p>
+<p>7.在虛擬主機內啟動近端</p>
+<p>輸入https://[fd17:625c:f037:2:a00:27ff:fef6:9b8a]:9443/</p>
+<p><img alt="" height="1019" src="/images/內部虛擬主機啟動近端.PNG" width="1919"/></p>
+<p></p>
+<p>8.在windows下啟動近端,即可完成啟動自己所對應的Host IP</p>
+<p>輸入https://[<span>2001:288:6004:17:2020:1:0:7114]:19443/<img alt="" height="923" src="/images/外部連接個人網址的近端.PNG" width="1918"/></span></p>
+<p><span></span></p>
+<p><span>操作影片</span></p>
+<p><span><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/2iGf1wuh6pk" width="560"></iframe></span></p>
+<p><span></span></p><h1>直播每週影片與進度</h1>
 <h2>w2</h2>
 <h4><strong>分配工作流程表</strong></h4>
 <p><strong><img alt="" height="378" src="/images/w2分配工作流程表.jpg" width="379"/></strong></p>
