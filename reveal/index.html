@@ -39,15 +39,38 @@ CMSimfly 網際內容管理
 <div class="slides">
 <section data-markdown>
     <script type="text/template">
-## CMSimfly 網際內容管理
+## 協同產品設計實習
 
-### KMOLab
+### 40723114
 
 <small>
-Created by [KMOLab](http://lab.kmol.info/)
+Created by [40723114](https://s40723114.github.io/cd2020/content/index.html)
+</small>
+<hr>
+[github](https://github.com/s40723114/cd2020)
+
+[my Videos](https://www.youtube.com/channel/UC-FuDSi0UFYAGhIeLGwOHJA?view_as=subscriber)
+<hr>
+
+
+
+
+    </script>
+</section>
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+## w1-w5
+
+<small>
+* w2主要是分配Assigment1的工作[w2](https://s40723114.github.io/cd2020/content/w2.html)
+* w3講解利用Random python亂數分組程式[w3](https://s40723114.github.io/cd2020/content/w3.html)
+* w5主要是分配webots tutorial的分配[w5](https://s40723114.github.io/cd2020/content/w5.html)
+
 </small>
 
-[CMSimfly 網誌](./../blog/index.html)
 
 
     </script>
@@ -57,85 +80,181 @@ Created by [KMOLab](http://lab.kmol.info/)
 						
 <section data-markdown>
     <script type="text/template">
-# 投影片快捷鍵
+## python random亂數分組的程式
 
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
+<small>
+亂數分組程式[python random](https://www.youtube.com/watch?v=QTfPD5bpeKc&feature=youtu.be)
+</small>
+
+<img src ="./../images/亂數分組程式圖片.jpg"width="600"></iframe>
+
+
 
     </script>
 </section>
-
-
-						
-<section>
-<section data-markdown>
-    <script type="text/template">
-<!-- 請注意, @others 不可以內縮 -->
-# 數學符號與方程式
-
-Inline math equations go in like so: $\omega = d\phi / dt$. Display
-math should get its own line and be put in in double-dollarsigns:
-
-$$I = \int \rho R^{2} dV$$
-    </script>
-</section>
-
 
 
 						
 <section data-markdown>
     <script type="text/template">
-<!-- 請注意, @others 不可以內縮 -->
-## 利用 Markdown 寫投影片
-以下利用 Markdown 格式展示 Python 程式碼:
-```
-# use threading and subprocess to threading the make process
-import os
-import subprocess
-import threading
+## w6-w10
 
-def domake():
-    
-    path = "../exposed/api/exposed"
-    ubuntu = "../Ubuntu"
-    
-    # create obj path
-    
-    if not os.path.exists(path+"/../obj"):
-        os.makedirs(path+"/../obj")
-    
-    subprocess.call(["make", "clean"], cwd=path)
-    subprocess.call("make", cwd=path)
-    subprocess.call(["cp", "{libslvs.so, _slvs.so, slvs.py}", ubuntu], cwd=path)
-    subprocess.call(["python3", "circle_ex.py"], cwd=path+"/"+ubuntu)
-    
-make = threading.Thread(target=domake)
-make.start()
-```
+<small>
+* w6主要是提醒大家記得安裝OBS及下載Coppeliasim[w6](https://s40723114.github.io/cd2020/content/w6.html)
+
+* w7分配每個人都需要拍一部Coppeliasim的Tutorial影片[w7](https://s40723114.github.io/cd2020/content/w7.html)
+
+* w8安裝opencv-python,imutils,numpy模組[w8](https://s40723114.github.io/cd2020/content/%E5%AE%89%E8%A3%9D%E6%89%80%E9%9C%80%E6%A8%A1%E7%B5%84.html)
+
+* w9講解接下來的課程內容,分配onshape繪製人員,以及Remote API的程式組人員[W9](https://s40723114.github.io/cd2020/content/%E5%88%86%E9%85%8D%E5%85%A7%E5%AE%B9.html)
+
+* W10講解oauth的設定[w10](https://s40723114.github.io/cd2020/content/w10.html)
+
+</small>
+
+
+
     </script>
 </section>
-
 
 
 						
 <section data-markdown>
     <script type="text/template">
-## 使用 iframe 導入影片
+## 協同產品設計課程實習項目
 
-### 導入影片 template
+<small>
+* 1.Onshape零組件繪圖與設定
+* 2.零組件轉檔進入 CoppeliaSim
+(1)轉檔格式有幾個版本需了解
+(2)用哪一個格式版本轉檔
 
-<iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+* 3.CoppeliaSim 零組件轉入後之零件分割, 零件從屬關係組立與控制設定
+
+* 4.利用 CoppeliaSim Python Remote API 控制四輪車
+
+* 5.將 Remote API 程式結合 Flask + Oauth2 + SQLite 進行 網際機電控制程式開發
+(1)把現有已經會的東西,放進網際網頁裡,成為一種服務
+(2)管理誰可以在遠端控制我的四輪車
+
+* 6.利用 Ubuntu 20.04 虛擬主機, 進行網際協同機電系統操控模擬
+(1) 了解 NAT ,讓虛擬主機可以上網,做內外IP的轉換
+(2)了解 Brid ged Adapter ,可建立獨立service,希望藉由兩片網卡,可以對外連線
+(3)了解 Host - only Adapter
+
+* 7.協同四輪車與平面機構系統產品整合開發1.Onshape零組件繪圖與設定
+
+</small>
+
+
+
     </script>
 </section>
 
 
 						
+<section data-markdown>
+    <script type="text/template">
+###嘗試在coppeliasim驅動馬達
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ApUJxR2osl0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+    </script>
 </section>
 
+
+						
+<section data-markdown>
+    <script type="text/template">
+## w6-w10
+
+<small>
+* w11驗收組員所畫的車子以及oauth應用之說明[w11](https://s40723114.github.io/cd2020/content/w11.html)
+
+* w12講解在ubuntu裡面,怎麼藉由VM的Net設定,讓外部可以藉由序號,控制Ubuntu裡面的虛擬車子[w12](https://s40723114.github.io/cd2020/content/w12.html)
+
+* w13主要講解在IPV4下,如何設定NET,設定port號,成功在虛擬主機下以及windows系統下,啟動近端[w13](https://s40723114.github.io/cd2020/content/w13.html)
+
+* w14主要講解在IPV6下以及IPV4下如何設定NET,成功讓內外都能啟動wsgi.py[W14](https://s40723114.github.io/cd2020/content/w14.html)
+
+* w15組立Ag1小組的車子,並且說明Coppeliasim與.stl檔的關係[w15](https://s40723114.github.io/cd2020/content/w15.html)
+
+</small>
+
+
+
+    </script>
+</section>
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+###組立Ag1小組的車子
+
+<iframe width="800" height="600" src="https://s40723114.github.io/cd2020/content/w15.html" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+    </script>
+</section>
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+###oauth設定
+
+<iframe width="800" height="600" src="https://s40723114.github.io/cd2020/content/Oauth%20%E8%A8%AD%E5%AE%9A.html" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+    </script>
+</section>
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+###google授權錯誤解決辦法
+
+<iframe width="800" height="600" src="https://s40723114.github.io/cd2020/content/google%E6%8E%88%E6%AC%8A%E9%8C%AF%E8%AA%A4%E8%A7%A3%E6%B1%BA%E8%BE%A6%E6%B3%95.html" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+    </script>
+</section>
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+###VM IPV4設定
+
+<iframe width="800" height="600" src="https://s40723114.github.io/cd2020/content/%E5%BE%9ELinux%E7%B3%BB%E7%B5%B1%E5%95%9F%E5%8B%95Cline%E7%AB%AF,%E7%94%B1windows%E7%B3%BB%E7%B5%B1%E4%B8%8B%E9%80%B2%E5%85%A5(IPV4).html" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+    </script>
+</section>
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+###IPV6環境下,啟動自己對應的Host IP
+
+<iframe width="800" height="600" src="https://s40723114.github.io/cd2020/content/IPV6%E7%92%B0%E5%A2%83%E4%B8%8B,%E5%95%9F%E5%8B%95%E8%87%AA%E5%B7%B1%E5%B0%8D%E6%87%89%E7%9A%84Host%20IP.html" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+    </script>
+</section>
+
+
+						
 </div>
 
 </div>
