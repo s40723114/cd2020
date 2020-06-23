@@ -27,6 +27,9 @@
 <v t="leo.20200623195602.1"><vh>python 亂數分組程式</vh>
 <v t="leo.20200623195602.2"><vh>封面投影片內容</vh></v>
 </v>
+<v t="leo.20200623210022.1"><vh>更新python3.8.2</vh>
+<v t="leo.20200623210022.2"><vh>封面投影片內容</vh></v>
+</v>
 <v t="leo.20200623202756.1"><vh>W6-W10</vh>
 <v t="leo.20200623202756.2"><vh>封面投影片內容</vh></v>
 </v>
@@ -287,7 +290,7 @@ vertical: body pane on the botton</t>
 亂數分組程式[python random](https://www.youtube.com/watch?v=QTfPD5bpeKc&amp;feature=youtu.be)
 &lt;/small&gt;
 
-&lt;img src ="./../images/亂數分組程式圖片.jpg"width="600"&gt;&lt;/iframe&gt;
+&lt;iframe width="800" height="600" src="https://s40723114.github.io/cd2020/content/python%20%E4%BA%82%E6%95%B8%E5%88%86%E7%B5%84.html" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
 
 
@@ -475,6 +478,26 @@ vertical: body pane on the botton</t>
 <t tx="leo.20200623205147.2">###IPV6環境下,啟動自己對應的Host IP
 
 &lt;iframe width="800" height="600" src="https://s40723114.github.io/cd2020/content/IPV6%E7%92%B0%E5%A2%83%E4%B8%8B,%E5%95%9F%E5%8B%95%E8%87%AA%E5%B7%B1%E5%B0%8D%E6%87%89%E7%9A%84Host%20IP.html" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+
+
+</t>
+<t tx="leo.20200623210022.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200623210022.2">## python random亂數分組的程式
+
+&lt;small&gt;
+亂數分組程式[python random](https://www.youtube.com/watch?v=QTfPD5bpeKc&amp;feature=youtu.be)
+&lt;/small&gt;
+
+&lt;iframe width="800" height="600" src="https://s40723114.github.io/cd2020/content/%E6%9B%B4%E6%96%B0Python%203.8.2.html" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
 
 
