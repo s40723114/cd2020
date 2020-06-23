@@ -284,7 +284,7 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20200623195602.2">## python random亂數分組的程式
+<t tx="leo.20200623195602.2">### python random亂數分組的程式
 
 &lt;small&gt;
 亂數分組程式[python random](https://www.youtube.com/watch?v=QTfPD5bpeKc&amp;feature=youtu.be)
@@ -491,7 +491,7 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20200623210022.2">## 更新python3.8.2
+<t tx="leo.20200623210022.2">###更新python3.8.2
 
 &lt;small&gt;
 更新python3.8.2[python3.8.2](https://s40723114.github.io/cd2020/content/%E6%9B%B4%E6%96%B0Python%203.8.2.html)
