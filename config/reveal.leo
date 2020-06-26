@@ -48,6 +48,9 @@
 <v t="leo.20200623204728.1"><vh>oauth設定</vh>
 <v t="leo.20200623204728.2"><vh>封面投影片內容</vh></v>
 </v>
+<v t="leo.20200626131015.1"><vh>在Flask框架下,加入.ttt檔</vh>
+<v t="leo.20200626131015.3"><vh>封面投影片內容</vh></v>
+</v>
 <v t="leo.20200623204852.1"><vh>google授權錯誤解決辦法</vh>
 <v t="leo.20200623204852.2"><vh>封面投影片內容</vh></v>
 </v>
@@ -56,6 +59,12 @@
 </v>
 <v t="leo.20200623205147.1"><vh>IPV6環境下,啟動自己對應的Host IP</vh>
 <v t="leo.20200623205147.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20200626131207.1"><vh>小組貢獻度</vh>
+<v t="leo.20200626131207.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20200626131453.1"><vh>小組出缺席狀況</vh>
+<v t="leo.20200626131453.2"><vh>封面投影片內容</vh></v>
 </v>
 </v>
 </v>
@@ -498,6 +507,54 @@ vertical: body pane on the botton</t>
 &lt;/small&gt;
 
 &lt;iframe width="800" height="600" src="https://s40723114.github.io/cd2020/content/%E6%9B%B4%E6%96%B0Python%203.8.2.html" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+
+
+</t>
+<t tx="leo.20200626131015.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200626131015.3">###在Flask框架下,加入.ttt檔
+
+&lt;iframe width="800" height="600" src="https://s40723114.github.io/cd2020/content/%E5%9C%A8Flask%E6%A1%86%E6%9E%B6%E4%B8%8B,%E5%8A%A0%E5%85%A5ttt%E6%AA%94.html" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+
+
+</t>
+<t tx="leo.20200626131207.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200626131207.2">###小組貢獻度
+
+&lt;iframe width="800" height="600" src="https://s40723114.github.io/cd2020ag1/content/%E5%B0%8F%E7%B5%84%E8%B2%A2%E7%8D%BB%E5%BA%A6.html" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+
+
+</t>
+<t tx="leo.20200626131453.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200626131453.2">###小組出缺席狀況
+
+&lt;iframe width="800" height="600" src="https://s40723114.github.io/cd2020ag1/content/%E5%87%BA%E7%BC%BA%E5%B8%AD%E7%8B%80%E6%B3%81.html" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
 
 
