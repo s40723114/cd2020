@@ -48,11 +48,11 @@
 <v t="leo.20200623204728.1"><vh>oauth設定</vh>
 <v t="leo.20200623204728.2"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20200626131015.1"><vh>在Flask框架下,加入.ttt檔</vh>
-<v t="leo.20200626131015.3"><vh>封面投影片內容</vh></v>
-</v>
 <v t="leo.20200623204852.1"><vh>google授權錯誤解決辦法</vh>
 <v t="leo.20200623204852.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20200626131015.1"><vh>在Flask框架下,加入.ttt檔</vh>
+<v t="leo.20200626131015.3"><vh>封面投影片內容</vh></v>
 </v>
 <v t="leo.20200623205014.1"><vh>從Linux系統啟動Cline端,由windows系統下進入(IPV4)</vh>
 <v t="leo.20200623205014.2"><vh>封面投影片內容</vh></v>
@@ -334,7 +334,7 @@ vertical: body pane on the botton</t>
 (2)了解 Brid ged Adapter ,可建立獨立service,希望藉由兩片網卡,可以對外連線
 (3)了解 Host - only Adapter
 
-* 7.協同四輪車與平面機構系統產品整合開發1.Onshape零組件繪圖與設定
+* 7.協同四輪車與平面機構系統產品整合開發
 
 &lt;/small&gt;
 
@@ -393,7 +393,7 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20200623203754.2">## w6-w10
+<t tx="leo.20200623203754.2">## w11-w15
 
 &lt;small&gt;
 * w11驗收組員所畫的車子以及oauth應用之說明[w11](https://s40723114.github.io/cd2020/content/w11.html)
@@ -503,7 +503,7 @@ vertical: body pane on the botton</t>
 <t tx="leo.20200623210022.2">###更新python3.8.2
 
 &lt;small&gt;
-更新python3.8.2[python3.8.2](https://s40723114.github.io/cd2020/content/%E6%9B%B4%E6%96%B0Python%203.8.2.html)
+[python3.8.2](https://s40723114.github.io/cd2020/content/%E6%9B%B4%E6%96%B0Python%203.8.2.html)
 &lt;/small&gt;
 
 &lt;iframe width="800" height="600" src="https://s40723114.github.io/cd2020/content/%E6%9B%B4%E6%96%B0Python%203.8.2.html" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
